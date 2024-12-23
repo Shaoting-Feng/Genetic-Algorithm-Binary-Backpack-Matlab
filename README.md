@@ -5,8 +5,7 @@ This repository contains a MATLAB implementation of a Genetic Algorithm for solv
 ## Features
 - **Cull, Crossover, and Mutation**: Standard genetic operations to evolve solutions.
 - **King Selection (KS)**: An additional selection method to enhance the algorithm's performance.
-- **GeneticBackpack.m**: Implements the Genetic Algorithm.
-- **MatlabBackpack.mlx**: Uses MATLAB's `intlinprog` function for comparison.
+- **MatlabBackpack.mlx**: Implements the Genetic Algorithm. Uses MATLAB's `intlinprog` function for comparison.
 
 ### Installation
 1. Clone the repository:
@@ -19,11 +18,7 @@ This repository contains a MATLAB implementation of a Genetic Algorithm for solv
    ```
 
 ## Usage
-1. Run the Genetic Algorithm:
-   ```matlab
-   GeneticBackpack
-   ```
-2. Alternatively, run the MATLAB function:
+1. Run MATLAB:
    ```matlab
    MatlabBackpack
    ```
@@ -32,7 +27,7 @@ This repository contains a MATLAB implementation of a Genetic Algorithm for solv
 - `ComputeFitness.m`: Function to compute the fitness of solutions.
 - `GeneticBackpack.m`: Main script for the Genetic Algorithm.
 - `LICENSE`: License file.
-- `MatlabBackpack.mlx`: Script using MATLAB's `intlinprog` function.
+- `MatlabBackpack.mlx`: Run file.
 - `PerformCrossover.m`: Function to perform crossover operations.
 - `README.md`: This file.
 - `objects.mat`: Data file containing objects for the backpack problem.
